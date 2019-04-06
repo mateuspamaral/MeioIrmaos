@@ -6,6 +6,17 @@ public class Filho {
     private String pai;
     private String nome;
 
+    public Filho(String nomeMae, String nomePai, String nomeFilho){
+        mae = nomeMae;
+        pai = nomePai;
+        nome = nomeFilho;
+    }
+
+    public Filho(){
+        
+    }
+
+
     public String getNome() {
         return nome;
     }
